@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#query">Query Form</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="pexels-pixabay-207891.jpg",height=200, width=200></img>
+        <p>Hello! I'm <strong>Vidhyakavi</strong>, a passionate Data Analyst.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Excel</li>
+            <li>Python</li>
+            <li>Data Visualization</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Drug Efficacy Testing Simulation</h3>
+            <p>Analyzed drug effectiveness using data visualization techniques.</p>
+        </div>
+        <div class="project">
+            <h3>Car Sales Analysis</h3>
+            <p>Explored trends in car sales using SQL and Power BI.</p>
+            <p style="color:aliceblue;"></p>
+        </div>
+    </section>
+
+    <section id="query">
+        <h2>Query Form</h2>
+        <form id="queryForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Query" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: vidhya@gmail.com.com</p>
+        <p>Phone: 9686766543</p>
+        <p>GitubLink: https://github.com/Vidhyakavi</p>
+    </section>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
